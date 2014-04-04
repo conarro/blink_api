@@ -1,0 +1,39 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.blinknetwork.com/map/v1/search?lat=33.83656&latd=1&lng=-84.38846&lngd=1&long=-84.38846&q=Atlanta%20Tech%20Village
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - BlinkApi::Client 0.0.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 04 Apr 2014 01:14:52 GMT
+      Server:
+      - Apache
+      Cache-Control:
+      - max-age=300, must-revalidate
+      Content-Length:
+      - '848'
+      Appserver:
+      - www2
+      Content-Type:
+      - application/json;charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: '[{"id":132742,"encid":"MTMyNzQy","latitude":33.848655,"longitude":-84.373367,"name":"Atlanta
+        Tech Village","address1":"3423 Piedmont Rd","address2":"","city":"Atlanta","state":"GA","zip":"30305","country":"US","type":"COMMERCIAL","hours":{"1":["00002359"],"2":["00002359"],"3":["00002359"],"4":["00002359"],"5":["00002359"],"6":["00002359"],"7":["00002359"]},"l2Rate":2.0,"dcfcRate":null,"l2RateUnit":3600,"dcfcRateUnit":0,"description":null,"restricted":false,"chargers":2,"inuse":0,"avail":2,"offline":0,"units":{"2":{"132737":{"isSuppressed":false,"model":"PE-30KICE40","portStatus":["AVAIL"],"restricted":false,"state":"AVAIL"},"132734":{"isSuppressed":false,"model":"PE-30KICE40","portStatus":["AVAIL"],"restricted":false,"state":"AVAIL"}}},"levels":["2"],"models":["PE-30KICE40"],"portCount":2,"portsInUse":0,"portsAvail":2,"portsOffline":0}]'
+    http_version: 
+  recorded_at: Fri, 04 Apr 2014 01:14:50 GMT
+recorded_with: VCR 2.8.0
