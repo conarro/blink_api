@@ -1,4 +1,4 @@
-# Blink API Client [![Build Status](https://travis-ci.org/kconarro14/blink_api.svg?branch=master)](https://travis-ci.org/kconarro14/blink_api) [![Code Climate](https://codeclimate.com/github/kconarro14/blink_api.png)](https://codeclimate.com/github/kconarro14/blink_api) [![Dependency Status](https://gemnasium.com/kconarro14/blink_api.svg)](https://gemnasium.com/kconarro14/blink_api)
+# Blink API Client [![Build Status](https://travis-ci.org/kconarro14/blink_api.svg?branch=master)](https://travis-ci.org/kconarro14/blink_api) [![Code Climate](https://codeclimate.com/github/kconarro14/blink_api.png)](https://codeclimate.com/github/kconarro14/blink_api) [![Dependency Status](https://gemnasium.com/kconarro14/blink_api.svg)](https://gemnasium.com/kconarro14/blink_api) [![Gem Version](https://badge.fury.io/rb/blink_api.svg)](http://badge.fury.io/rb/blink_api)
 
 A Ruby wrapper for the [Blink Network API](http://www.blinknetwork.com/developer.html)
 
